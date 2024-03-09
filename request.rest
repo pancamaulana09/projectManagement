@@ -1,0 +1,17 @@
+GET http://localhost:5000/admin/dashboard
+
+###
+
+POST http://localhost:5000/customers
+
+Content-Type: application/json
+{
+    "name": "Esthera Jackson",
+    "email": "alexa@simmmple.com",
+    "alamat":"sidosermo 4 gg 11",
+    "kota":"surabaya",
+    "namaPICRS":"PICRS",
+    "noHpPICRS":"0953634",
+    "namaAdminRS":"supri",
+    "noHpAdminRS":"02034235"
+}
